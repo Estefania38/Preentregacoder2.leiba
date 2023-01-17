@@ -1,0 +1,24 @@
+{
+  "name": "preentregacoder2.leiba",
+  "version": "1.0.0",
+  "description": "pato",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+"sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estefania38/Preentregacoder2.leiba.git"
+  },
+  "author": "estefania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estefania38/Preentregacoder2.leiba/issues"
+  },
+  "homepage": "https://github.com/Estefania38/Preentregacoder2.leiba#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}

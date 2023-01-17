@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disfraces para niños y adolescentes - Disfraces Pato al agua</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/bootstrap.css"> 
 
   <link rel="stylesheet" href="./css/style.css">
   <!-- link a mi css-->
@@ -19,7 +18,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg" id="botonera">
+  <nav class="navbar navbar-expand-lg sticky-top" id="botonera">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img class="logo" src="img/logos/logopatoalagua1.png" alt="logo">
@@ -70,7 +69,7 @@
     <h2 class="titulo"> Encuentra tu personaje favorito </h2>
 
   </section>
-                 
+        <div class="cat-portada-index">        
   <section class="py-3" container-fluid>
                 
     <div class="row">
@@ -100,7 +99,7 @@
               <a href="page/adolescentes.html" class="btn btn-precios">CONOCE MÁS</a>
             </div>
           </div>
-          
+        </div> 
     </div>                
 </section>
 
@@ -113,24 +112,34 @@
 
       <div class="gallery-container">
         <div class="gallery__item">
-          <img src="img/personajes-portada/HarryPotterportada.jpg" alt="" class="gallery__img">
+          <a href="./page/niños.html#harrypotter">
+          <img src="img/personajes-portada/HarryPotterportada.jpg" alt="personajes-harry-potter" class="gallery__img">
           <h2 class="gallery__title" imagen1="">Harry Potter</h2>
+          </a>
         </div>
         <div class="gallery__item">
-          <img src="img/personajes-portada/disfracesdisney.jpg" alt="" class="gallery__img">
+          <a href="./page/niñas.html#disfraces-princesas">
+          <img src="img/personajes-portada/disfracesdisney.jpg" alt="personajes-disney" class="gallery__img">
           <h2 class="gallery__title" imagen2="">Disney</h2>
+          </a>
         </div>
         <div class="gallery__item">
-          <img src="img/personajes-portada/superheroesniños.png" alt="" class="gallery__img">
+          <a href="./page/niños.html#super-heroes">
+          <img src="img/personajes-portada/superheroesniños.png" alt="personajes-superheroes" class="gallery__img">
           <h2 class="gallery__title" imagen3="">Super Heroes</h2>
+          </a>
         </div>
         <div class="gallery__item">
-          <img src="img/personajes-portada/starwars-portada-niña.jpg" alt="" class="gallery__img">
+          <a href="./page/niños.html#starwars">
+          <img src="img/personajes-portada/starwars-portada-niña.jpg" alt="personajes-starwars" class="gallery__img">
           <h2 class="gallery__title" imagen4="">Star Wars</h2>
+          </a>
         </div>
         <div class="gallery__item">
-          <img src="img/personajes-portada/portada-hallowen.jpg" alt="" class="gallery__img">
+          <a href="./page/accesorios.html#mascaras-de-peliculas">
+          <img src="img/personajes-portada/portada-hallowen.jpg" alt="personajes-hallowen" class="gallery__img">
           <h2 class="gallery__title" imagen5="">Hallowen</h2>
+          </a>
         </div>
       </div>
 
@@ -200,22 +209,16 @@
 
   <div class="about_us">
     <h2>Acerca de nosotros</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Voluptas maxime nemo numquam. Veritatis vero repudiandae
-      adipisci incidunt ut repellat enim nihil temporibus,
-      accusantium dolores cupiditate quos possimus rerum delectus quaerat.
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-      Amet explicabo quisquam molestias natus officiis itaque dignissimos ea magnam,
-      necessitatibus quia eveniet ex soluta, nesciunt error mollitia atque obcaecati deserunt
-      expedita.
+    <p>Somos un emprendimiento familiar, iniciado en el año 2012. A partir de un sueño anhelado de Patricia Lonardi, creadora de la marca.
+      Quien inicio este camino con el boca a boca en su barrio de residencia. Alcanzando con el esfuerzo y reconocimiento de todos estos años y 
+      hoy a travez de las redes sociales llegar al publico en general. 
     </p>
-    <h2>Sugerinos ....</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Pariatur, nostrum ut? Incidunt laborum dolore ipsa corporis at nobis.
-      Hic, inventore esse. Explicabo quisquam consequuntur soluta?
-      Cumque dignissimos ipsa earum nostrum.
+    <h2>¿De donde proviene el nombre de la marca?</h2>
+    <p>El nombre de la marca proviene del apodo de su creadora y fundadora Patricia Lonardi.
+       Con un agregado de la frase "al agua", aludiendo a la metafora de "tirarse al agua", tomar riesgos,
+       e ir hacias adelante, con los proyectos, sueños y anhelos.
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Esperamos que nos sigan eligiendo y acompañando en este hermoso camino.</p>
   </div>
   </main>
 
@@ -254,9 +257,9 @@
   </footer>
 
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+
 
 </body>
 
