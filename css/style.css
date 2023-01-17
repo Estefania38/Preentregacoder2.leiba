@@ -21,6 +21,14 @@
     color: rgb(241, 115, 25);
     transition: .5s;
 }
+/*
+.about_us p.one:first-line{
+
+    font-weight: 800;
+    font-size: 3em;
+    color: aqua;
+    font-style: italic;
+}*/
 
 #botonera img .logo {
     width: 78px;
@@ -95,6 +103,39 @@ img .img-cat-inicio{
 }
 
 }
+#carouselExampleIndicators1 img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+
+}
+
+.carousel-control-prev{
+    background-color:  rgb(237, 26, 142);
+    width: 40px;
+    height: auto;
+
+
+}
+
+.carousel-control-next{
+    background-color: rgb(237, 26, 142);
+    width: 40px;
+    height: auto;
+
+}
+
+.title-mask{
+
+    margin-top: -100px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow:  rgb(237, 26, 142) 2px 2px;
+   
+} 
 .btn-precios{
     background-color: rgb(243, 156, 216);
     color: black;
@@ -172,6 +213,26 @@ img .img-cat-inicio{
     margin-bottom: 10px;
     }
  
+       
+.card-body{
+    text-align: center;
+    max-height: 225px;
+    border-radius: 15px;
+    
+}
+
+.card-title{
+    font-family:  'Roboto';
+    font-size: 20px;
+}
+
+.card-text{
+    font-family: Franklin Gothic Med;
+    font-size: 18px;
+}
+
+
+/* selectores de etiquetas */
 
 
 body {
@@ -179,6 +240,14 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     margin: 10px;
+}
+
+.carousel-items {   
+
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+    
 }
 
 .gallery-container {
@@ -267,23 +336,24 @@ body {
 
 h2  {
     color: #0c0c0c
+    
        
 }
 
 .titulo {
     color:  #0c0c0c;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: .5rem;
-    padding-top: 0.5rem;
+    padding-top: 0rem;
     padding-bottom: 1rem;
 }
 .titulo-categorias{
     color:  #0c0c0c;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: .5rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
 }
@@ -433,3 +503,37 @@ h2  {
 }
 
 
+
+.card_body{
+    background: rgba(white, 0.075);
+    backdrop-filter: blur(20px);
+    color: white;
+
+}
+
+
+.carouselExampleIndicators{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat-portada-index .card{
+
+    background-color:  rgb(241, 115, 25);
+    
+}
+
+.category .card {
+    background-color:   rgb(241, 115, 25); 
+    
+    
+}
+
+
+       
+.card .card-body1 {
+    text-align: center;
+    max-height: 225px;
+    border-radius: 15px;
+    
+}
