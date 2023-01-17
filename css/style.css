@@ -4,7 +4,9 @@
     font-family: 'Roboto';
     
 }
-
+#boton{
+    color: red;
+}
 /*navbar inicio*/
 
 #botonera {
