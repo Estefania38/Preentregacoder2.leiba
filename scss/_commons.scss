@@ -1,0 +1,57 @@
+p{
+    font-family: $mainFont;
+    color: $keyColor;
+    font-size: $fontSm;
+}
+h1{
+
+    font-size: $fontMd;
+    color: $keyColor;
+}
+
+
+h2  {
+    color: $keyColor;
+    font-family: $fontfamily;
+    
+           
+}
+.text-dark {
+    color: #0c0c0c
+}
+
+
+body {
+    background-color: $mainColor;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 10px;
+}
+
+.titulo {
+    color:  #0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    margin: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.titulo-categorias{
+    color:  #0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    margin: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+.encabezado {
+    text-align: center;
+    color: $keyColor;
+    padding-right: 5px;
+    font-size: $fontSm;
+    margin-top:.5rem;
+    
+}
+
+

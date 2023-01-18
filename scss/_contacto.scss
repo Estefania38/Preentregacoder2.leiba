@@ -1,0 +1,36 @@
+.contact {
+    display: flex;
+    margin-inline-start: 10px;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    flex-wrap: nowrap;    
+    
+  .form-group {
+    display: flex;
+    align-items:baseline;
+
+  }
+
+}
+.btn-contacto{
+    background-color: rgb(243, 156, 216);
+    color: black;
+    align-items: center;
+}
+
+.btn-contacto:hover{
+    background-color: #e1c275;
+}
+#legend {
+    color:$keyColor;
+    padding-bottom: 1rem;
+    font-family: $fontfamily;
+    font-size: $fontMd;
+}
