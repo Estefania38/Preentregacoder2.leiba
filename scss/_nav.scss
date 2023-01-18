@@ -11,19 +11,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-   ul {
+}
+.navbar ul {
     display: flex;
     justify-content: space-between;    
     flex-wrap: nowrap;
     align-items: center;
 }
 
- li a {
+.navbar li a {
     text-decoration: none;
     padding: 8px 20px;
 }
-}
+
 
 .navbar li {
     list-style: none;
@@ -48,12 +48,13 @@
 
 #botonera {
     background-color: rgb(244, 179, 231);
+}
     
-  ul li a {
+#botonera ul li a {
     color: #000;
     font-size: 16px;
 }
-}
+
 
 #botonera ul li a:hover {
     color: rgb(241, 115, 25);
