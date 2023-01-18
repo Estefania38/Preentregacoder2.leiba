@@ -1,5 +1,40 @@
 
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Henny+Penny&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import "_vars";
+@import "_commons";
+@import "_nav";
+@import "_productos";
+@import "_card.scss";
+@import "_galleryimg.scss";
+@import "_media";
+@import "_footer.scss";
+@import "_carousel.scss";
+@import "_contacto";
 
-#booton {
-    color: aqua;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+
+}
+.navbar-toggler {
+    color: $mainColor;
+}
+
+.encabezado {
+    text-align: center;
+    color: $keyColor;
+    padding-right: 5px;
+    font-size: $fontMd;
+    margin-top:.5rem;
+    
+}
+
+.portada {
+    width: 100%;
+
 }
