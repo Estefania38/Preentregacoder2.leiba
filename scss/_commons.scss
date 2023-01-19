@@ -1,8 +1,8 @@
 p{
-    font-family: $mainFont;
-    color: $keyColor;
-    font-size: $fontSm;
+    @include textos ($fontSm,1.5em,$keyColor)
 }
+
+
 h1{
 
     font-size: $fontMd;
