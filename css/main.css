@@ -67,12 +67,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .navbar li a {
   text-decoration: none;
   padding: 8px 20px;
@@ -103,6 +105,7 @@ body {
 #botonera {
   background-color: rgb(244, 179, 231);
 }
+
 #botonera ul li a {
   color: #000;
   font-size: 16px;
@@ -307,7 +310,7 @@ img .img-cat-inicio {
     top: 80px;
     width: auto;
     padding: 9px 0;
-    /* height: clac(100% - 40px);*/
+    height: clac(100% 40px);
     overflow-y: auto;
   }
   #botonera ul li a {
