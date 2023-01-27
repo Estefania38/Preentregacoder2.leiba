@@ -5,17 +5,17 @@ p{
 
 h1{
 
-    font-size: $fontMd;
+    font-size: $fontLg;
     color: $keyColor;
 }
 
 
 h2  {
-    color: $keyColor;
-    font-family: $fontfamily;
-    
+    @include textos ($fontSm,1em,$keyColor);
+    font-family: $fontfamily;   
            
 }
+
 .text-dark {
     color: #0c0c0c
 }
@@ -32,7 +32,7 @@ body {
 .titulo {
     color:  #0c0c0c;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin: .5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -46,11 +46,12 @@ body {
     padding-bottom: 0.5rem;
 
 }
+
 .encabezado {
     text-align: center;
     color: $keyColor;
     padding-right: 5px;
-    font-size: $fontSm;
+    font-size: $fontLg;
     margin-top:.5rem;
     
 }
@@ -60,7 +61,10 @@ body {
     width:100%;    
     justify-content:center;    
     display: flex;
-    
-    
-    
+}
+
+.card  {
+
+    width: 100%;
+    margin-bottom: 50px;
 }
