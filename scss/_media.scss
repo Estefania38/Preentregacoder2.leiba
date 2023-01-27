@@ -35,16 +35,17 @@
         padding-right: 20px;
         
     }
+ 
 
     .encabezado {
         text-align: center;
         color: $keyColor;
         padding-right: 5px;
-        font-size: 5px;
+        font-size: $fontMd;
         margin-top:.5rem;
         
     }
-   
+      
 
 }
 
@@ -97,7 +98,7 @@
     text-align: center;
     color: $keyColor;
     padding-right: 5px;
-    font-size: $fontSm;
+    font-size: $fontMd;
     margin-top:.5rem;
     
 }
