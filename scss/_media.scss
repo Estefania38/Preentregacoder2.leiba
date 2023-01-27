@@ -33,15 +33,19 @@
         text-align: center;     
         margin-right: 15px;
         padding-right: 20px;
+        
     }
+
     .encabezado {
         text-align: center;
-        color: blue;
+        color: $keyColor;
         padding-right: 5px;
         font-size: 5px;
         margin-top:.5rem;
         
     }
+   
+
 }
 
 
@@ -58,6 +62,7 @@
         flex-wrap: wrap; 
         border-radius: 0px;
         padding-right: 50px;
+        
     }
     
 .contenedorcategorias{
@@ -71,20 +76,20 @@
 }
    
    .navbar ul {
-    flex-direction:column;
+    flex-direction:column-reverse;
     align-items: center;
-    margin-right: 15px;
-    background-color: #A65691;
-    position: fixed;
+    margin-right: 50px;
+    background-color:  #ba5da1;
+    position:absolute;
     left: 0;
     top: 80px;
-    width: auto;
+    width: 100%;
     padding: 9px 0;
     height: clac(100%  40px);
     overflow-y:auto;
 }
 #botonera ul li a {
-    color: #000;
+    color: rgb(25, 24, 24);
     font-size: 12px;
 }
 
@@ -104,7 +109,6 @@ img .img-cat-inicio{
     align-items: center;
     display: flex;
     flex-wrap: wrap; 
-
     
 }
 
