@@ -57,6 +57,13 @@ body {
   margin-top: 0.5rem;
 }
 
+.error-404 {
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -175,6 +182,8 @@ img .img-cat-inicio {
 .card-text {
   font-family: Franklin Gothic Med;
   font-size: 18px;
+  color: "Henny Penny", cursive;
+  text-overflow: ellipsis;
 }
 
 .btn-precios {
@@ -205,6 +214,10 @@ img .img-cat-inicio {
   border-radius: 15px;
 }
 
+/*
+img[src$=".jpg"]{
+    border: solid black 5px;
+}*/
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -275,7 +288,7 @@ img .img-cat-inicio {
   }
   .encabezado {
     text-align: center;
-    color: blue;
+    color: rgb(15, 15, 15);
     padding-right: 5px;
     font-size: 5px;
     margin-top: 0.5rem;
@@ -303,20 +316,20 @@ img .img-cat-inicio {
     flex-wrap: wrap;
   }
   .navbar ul {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    margin-right: 15px;
-    background-color: #A65691;
-    position: fixed;
+    margin-right: 50px;
+    background-color: #ba5da1;
+    position: absolute;
     left: 0;
     top: 80px;
-    width: auto;
+    width: 100%;
     padding: 9px 0;
     height: clac(100% 40px);
     overflow-y: auto;
   }
   #botonera ul li a {
-    color: #000;
+    color: rgb(25, 24, 24);
     font-size: 12px;
   }
   .encabezado {

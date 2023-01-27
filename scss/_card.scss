@@ -14,6 +14,8 @@
 .card-text{
     font-family: Franklin Gothic Med;
     font-size: 18px;
+    color:$fontfamily;
+    text-overflow: ellipsis;
 }
 
 
@@ -53,3 +55,7 @@
     
 }
 }
+/*
+img[src$=".jpg"]{
+    border: solid black 5px;
+}*/
