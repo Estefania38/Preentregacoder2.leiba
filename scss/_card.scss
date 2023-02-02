@@ -1,58 +1,56 @@
-       
-.card-body{
-    text-align: center;
-    max-height: 225px;
-    border-radius: 15px;
-    
-}
+       .card-body {
+           text-align: center;
+           max-height: 250px;
+           border-radius: 15px;
+           background: rgba(rgb(240, 60, 93), 0.075);
+           backdrop-filter: blur(5px);
 
-.card-title{
-    font-family:  'Roboto';
-    font-size: 20px;
-}
 
-.card-text{
-    font-family: Franklin Gothic Med;
-    font-size: 18px;
-    color:$fontfamily;
-    text-overflow: ellipsis;
-}
+       }
 
 
 
-.btn-precios{
-    background-color: rgb(243, 156, 216);
-    color: black;
-}
+       .card-title {
+           font-family: 'Roboto';
+           font-size: 20px;
+       }
 
-.btn-precios:hover{
-    background-color: #A65691;
-}
+       .card-text {
+           font-family: Franklin Gothic Med;
+           font-size: 18px;
+           color: $fontfamily;
+           text-overflow: ellipsis;
+       }
+
+
+
+       .btn-precios {
+           background-color: rgb(243, 156, 216);
+           color: black;
+       }
+
+       .btn-precios:hover {
+           background-color: #A65691;
+       }
 
 
 
 
-.card_body{
-    background: rgba(white, 0.075);
-    backdrop-filter: blur(20px);
-    color: white;
 
-}
 
-.cat-portada-index .card{
+       .cat-portada-index .card {
 
-    background-color:  $secondaryColor;
-    
-}
+           background-color: $secondaryColor;
 
-.category .card {
-    background-color:  $secondaryColor; 
-        
- .card-body1 {
-    text-align: center;
-    max-height: 225px;
-    border-radius: 15px;
-    
-}
-}
+       }
 
+       .category .card {
+           background-color: $secondaryColor;
+
+           .card-body1 {
+               text-align: center;
+               max-height: 225px;
+               border-radius: 15px;
+
+           }
+       }
