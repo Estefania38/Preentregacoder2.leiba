@@ -21,11 +21,11 @@ if (seleccion == "Si" || seleccion == "si") {
         (disfraz) => disfraz.nombre + " " + "$" + disfraz.precio
     );
     alert(todosloDisfraces.join(" - "));
-} else if (seleccion == "No" || seleccion == "no") {
+} else if (seleccion === "No" || seleccion === "no") {
     alert("Gracias por elegirnos. Hasta pronto")
 }
 
-while (seleccion != "No" || seleccion == "no") {
+while (seleccion == "Si" || seleccion == "si") {
     let disfraz = prompt("Agrega un producto a tu carrito")
     let precio = 0
 
@@ -52,7 +52,7 @@ while (seleccion != "No" || seleccion == "no") {
 
     seleccion = prompt("Desea seguir comprando?")
 
-    while (seleccion === "No" || seleccion == "no") {
+    while (seleccion == "No" || seleccion == "no") {
         alert("A continuacion te mostraremos el total de tu pedido.")
         carrito.forEach((carritoFinal) => {
             alert(`disfraz: ${carritoFinal.disfraz}, unidades: ${carritoFinal.unidades}, total por disfraz: ${carritoFinal.unidades * carritoFinal.precio}`)
@@ -62,3 +62,4 @@ while (seleccion != "No" || seleccion == "no") {
 }
 const total = carrito.reduce((acc, el) => acc + el.precio * el.unidades, 0)
 alert(`El total a pagar de tu compra es: ${total}`)
+
